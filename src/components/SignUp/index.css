@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.main-container {
+  /* padding: 10px; */
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #29afd1, #17aed1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-form {
+  border: 0;
+  border-radius: 12px;
+  height: 460px;
+  width: 480px;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-head {
+  font-size: 30px;
+  text-align: center;
+}
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+.label-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+.user-input {
+  height: 30px;
+  padding: 6px;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 1px solid;
+}
+.sign-up-btn {
+  height: 40px;
+  width: 120px;
+  padding: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: darkblue;
+  border: 0 solid;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 20px;
+}
+.login-btn {
+  height: 40px;
+  width: 120px;
+  padding: 4px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: darkcyan;
+  border: 0 solid;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  margin-top: 20px;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 280px;
+  height: 280px;
+}
+.success-img {
+  height: 80px;
+  width: 80px;
+}
+.login-message {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.route-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .form-head {
+    font-size: 21px;
+  }
+  .sign-up-form {
+    width: 300px;
+    height: 420px;
+    border-radius: 4px;
+  }
+  .form-input-container {
+    width: 240px;
+  }
+  .label-text {
+    font-size: 14px;
+  }
+  .user-input {
+    font-size: 12px;
+  }
+  .sign-up-btn {
+    width: 80px;
+    height: 36px;
+    font-size: 10px;
+  }
+  .login-btn {
+    width: 80px;
+    height: 36px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,99 @@
+.header-container {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.224);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-btn {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  font-size: 30px;
+  border: 0 solid;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.modal {
+  width: 400px;
+  height: 400px;
+  background-color: #252525;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-content {
+  height: 160px;
+}
+.menu-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.modal-header {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.close {
+  background-color: lightcyan;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  border: 0 solid;
+  border-radius: 50%;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.close-button {
+  background-color: rgb(4, 0, 241);
+  height: 40px;
+  width: 80px;
+  font-size: 16px;
+  border: 0 solid;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.info {
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.info-title {
+  font-size: 16px;
+  color: #0055de;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 576px) {
+  .modal {
+    width: 280px;
+    height: 280px;
+    justify-content: flex-start;
+  }
+  .modal-content {
+    height: 120px;
+  }
+  .info {
+    font-size: 10px;
+  }
+  .info-title {
+    font-size: 12px;
+  }
+  .modal-header {
+    font-size: 14px;
+  }
+  .close-button {
+    font-size: 12px;
+    height: 26px;
+    width: 60px;
+    margin-top: 20px;
+  }
+}

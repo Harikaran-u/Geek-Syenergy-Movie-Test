@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.movies-main-container {
+  background-image: linear-gradient(to right, #fc6767, #ec008c);
+  min-height: 100vh;
+}
+
+.all-movies-list-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}

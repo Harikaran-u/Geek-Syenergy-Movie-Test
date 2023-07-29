@@ -1,0 +1,135 @@
+.movie-list-container {
+  width: 420px;
+  height: 300px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.all-details-container {
+  display: flex;
+  height: 180px;
+}
+.votes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+}
+.icon-img {
+  height: 40px;
+  width: 40px;
+}
+
+.voting-count {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.movie-img {
+  height: 120px;
+  width: 80px;
+  margin-right: 20px;
+  margin-left: 5px;
+  border-radius: 8px;
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.movie-title {
+  font-size: 24px;
+  color: rgb(39, 86, 139);
+  font-weight: 600;
+}
+.category {
+  color: grey;
+  font-size: 13px;
+  font-weight: 500;
+}
+.category-values {
+  font-size: 13px;
+  color: #000000;
+  font-weight: 500;
+}
+.short-details {
+  display: flex;
+  align-items: center;
+}
+.short-items {
+  font-size: 14px;
+  color: rgb(0, 27, 27);
+}
+.info-details {
+  display: flex;
+  align-items: center;
+}
+.info-items {
+  font-size: 14px;
+  color: rgb(0, 176, 176);
+}
+.watch-trailer-btn {
+  cursor: pointer;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(32, 172, 236);
+  color: #ffffff;
+  text-align: center;
+  padding: 6px;
+  border: 0 solid;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .movie-list-container {
+    width: 300px;
+    height: 220px;
+  }
+  .all-details-container {
+    height: 120px;
+  }
+  .votes-container {
+    width: 80px;
+    height: 80px;
+  }
+  .icon-img {
+    width: 25px;
+    height: 25px;
+  }
+  .voting-count {
+    font-size: 10px;
+  }
+  .movie-img {
+    height: 80px;
+    width: 50px;
+  }
+  .movie-details-container {
+    width: 140px;
+  }
+  .movie-title {
+    font-size: 14px;
+  }
+  .category {
+    font-size: 12px;
+  }
+  .category-values {
+    font-size: 12px;
+  }
+  .short-items {
+    font-size: 10px;
+  }
+  .info-items {
+    font-size: 10px;
+  }
+  .watch-trailer-btn {
+    font-size: 10px;
+    height: 30px;
+  }
+}
